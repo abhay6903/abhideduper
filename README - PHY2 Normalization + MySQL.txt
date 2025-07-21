@@ -10,7 +10,7 @@ PIPELINE WORKFLOW (STEP-BY-STEP INSTRUCTION)
 
 - Open Google Colab.
 - Go to Runtime > Change Runtime Type > Set Hardware Accelerator to "GPU".
-- Make sure you upload all the files from phi2refined onto your drive.
+- Make sure you upload all the files from phi2refined and data_normalization_phi2.jsonl onto your drive.
 - Paste the fine-tuned Phi-2 inference/test script in the Colab notebook.
 - Run the script to load the model and tokenizer.
 - Input a raw query (e.g., "abhay panday, 44 near laxmi nagar delhi").
